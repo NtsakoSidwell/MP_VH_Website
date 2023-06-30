@@ -35,10 +35,10 @@ $(".owl-carousel").owlCarousel({
     autoplayHoverPause: true,
     responsive: {
         0: {
-            items: 1
+            items: 0
         },
         768: {
-            items: 2
+            items: 1
         },
         1000: {
             items: 2

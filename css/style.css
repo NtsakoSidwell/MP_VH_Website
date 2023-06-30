@@ -1230,7 +1230,7 @@ background: white;
 }
 
 .client_section {
-  background-image: url(../images/client-bg.jpg);
+  background-image: url(../images/bg1.jfif);
   background-size: cover;
 }
 
@@ -1246,6 +1246,15 @@ background: white;
   padding: 25px;
   margin: 5px;
   background-color: #ffffff;
+  
+}
+
+.client_section .box1 {
+  padding: 25px;
+  margin: 5px;
+  background-color: #ffffff;
+  width:500px;
+  
 }
 
 .client_section .box .client_id {
@@ -1265,6 +1274,22 @@ background: white;
   overflow: hidden;
 }
 
+.client_section .box1 .clients_id .img-box {
+  width: 450px;
+  height:300px;
+  min-width: 100px;
+  border-radius: 2px;
+  margin-right: 15px;
+  overflow: hidden;
+}
+.client_section .box1 .clients_id .client_detail h6 {
+  margin: 0;
+  color: #f7941d;
+  text-align:center;
+  padding:15px;
+  
+}
+
 .client_section .box .client_id .img-box img {
   width: 100%;
 }
@@ -1280,10 +1305,17 @@ background: white;
 .client_section .box .client_id .client_detail h6 {
   margin: 0;
   color: #f7941d;
+  
 }
 
 .client_section .box .client_text {
   padding: 20px 15px;
+}
+
+.client_section .box .clients_text {
+  padding: 20px 15px;
+  
+  font-weight:500;
 }
 
 .client_section .owl-carousel {
