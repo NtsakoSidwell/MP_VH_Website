@@ -136,7 +136,7 @@ body {
 
 .navbar-brand span {
   font-weight: 700;
-  color: #ffffff;
+  color:black;
   font-size: 24px;
   text-transform: uppercase;
 }
@@ -1230,9 +1230,14 @@ background: white;
 }
 
 .client_section {
-  background-image: url(../images/bg1.jfif);
-  background-size: cover;
+  background-image: url(../images/bg1.png) ;
+  width: 100%;
+  
+  background-size: auto;
+  background-position: 100%;
+  
 }
+
 
 .client_section .heading_container {
   -webkit-box-align: center;
