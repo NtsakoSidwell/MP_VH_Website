@@ -1230,7 +1230,7 @@ background: white;
 }
 
 .client_section {
-  background-image: url(../images/bg1.png) ;
+  background-color:whitesmoke;
   width: 100%;
   
   background-size: auto;
@@ -1244,20 +1244,20 @@ background: white;
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  color: #ffffff;
+  color: black;
 }
 
 .client_section .box {
   padding: 25px;
   margin: 5px;
-  background-color: #ffffff;
+   background-color:white;
   
 }
 
 .client_section .box1 {
   padding: 25px;
   margin: 5px;
-  background-color: #ffffff;
+ background-color:white;
   width:500px;
   
 }
