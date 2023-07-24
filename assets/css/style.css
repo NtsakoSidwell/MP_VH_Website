@@ -341,7 +341,7 @@ h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #003782;
+  background-color: #FFFFFF;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -356,7 +356,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #003782;
+  color: #FFFFFF;
   background-color: #003782;
 }
 
