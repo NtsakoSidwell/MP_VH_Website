@@ -131,7 +131,7 @@ h6 {
 }
 
 #header .logo {
-  font-size: 32px;
+  font-size: 50px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -206,7 +206,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 13px;
+  font-size: 20px;
   font-weight: 600;
   color: #ffffff;
   white-space: nowrap;
@@ -215,7 +215,7 @@ h6 {
 
 .navbar a i,
 .navbar a:focus i {
-  font-size: 12px;
+  font-size: 15px;
   line-height: 0;
   margin-left: 5px;
 }
@@ -248,9 +248,9 @@ h6 {
 
 .navbar .dropdown ul a {
   padding: 10px 20px;
-  font-size: 14px;
+  font-size: 16px;
   text-transform: none;
-  color: #003782;
+  color: #151515;
   font-weight: 400;
 }
 
@@ -261,7 +261,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  background-color: #151515;
+  background-color: #003782;
 }
 
 .navbar .dropdown:hover>ul {
@@ -1551,4 +1551,12 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+.launch-time{
+	display:flex;
+}
+
+.launch-time div{
+	flex-basis:100px;
 }
